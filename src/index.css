@@ -62,7 +62,7 @@ body {
 
 @layer components {
     .icon {
-        @apply p-1 hover:bg-gray-200 rounded hover:cursor-default;
+        @apply p-1 hover:bg-gray-200 rounded hover:cursor-pointer transition-all;
     }
 
     #welcome {
