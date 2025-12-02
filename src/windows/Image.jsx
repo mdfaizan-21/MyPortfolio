@@ -19,7 +19,7 @@ const Image = () => {
                 <img
                     src={data.imageUrl}
                     alt={data.name}
-                    className="max-w-full max-h-full object-contain"
+                    className="max-w-full max-h-120 object-contain"
                 />
             </div>
         </>

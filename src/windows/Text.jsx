@@ -15,8 +15,8 @@ const Text = () => {
                 <WindowControls target="txtfile" />
                 <span className="font-semibold text-gray-500">{data.name}</span>
             </div>
-            <div className="bg-white h-full overflow-y-auto p-6 text-black">
-                <div className="max-w-2xl mx-auto space-y-2">
+            <div className="bg-white h-full overflow-y-auto p-6 text-black font-roboto">
+                <div className="max-w-full mx-auto space-y-2">
                     {/* Header Section */}
                     <div className="text-center space-y-2">
                         {data.image && (

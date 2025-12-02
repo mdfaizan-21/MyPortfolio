@@ -17,7 +17,7 @@ const Resume = () => {
             <div id="window-header">
                 <WindowControls target="resume" />
                 <h2 className="text-2xl">Resume</h2>
-                <a href="/files/resume.pdf"
+                <a href="/files/MyResume2.pdf"
                     download={true}
                     className="cursor-pointer"
                     title="Download resume"
@@ -25,7 +25,7 @@ const Resume = () => {
                     <Download className="icon" />
                 </a>
             </div>
-            <Document file="files/resume.pdf" className="max-h-fit">
+            <Document file="/files/MyResume2.pdf" className="max-h-fit">
                 <Page pageNumber={1} renderAnnotationLayer renderTextLayer />
             </Document>
         </>
